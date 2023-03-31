@@ -28,8 +28,8 @@ result = ''
 version = '1.7.44'
 
 def ver_check():
-	print(G + '[+]' + C + ' Checking the AdminHack for updates....', end='')
-	ver_url = 'https://raw.githubusercontent.com/mishakorzik/AdminHack/main/src/Version.txt'
+	print(G + '[+]' + C + ' Checking the TechieWebHack for updates....', end='')
+	ver_url = 'https://raw.githubusercontent.com/TechieGamer1/TechieWebHack/main/src/Version.txt'
 	try:
 		ver_rqst = requests.get(ver_url)
 		ver_sc = ver_rqst.status_code
