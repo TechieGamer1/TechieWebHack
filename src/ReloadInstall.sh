@@ -3,10 +3,10 @@ sleep 1
 echo Reinstalling tool.
 rm -rf ncurses-util
 sleep 1
-echo Reloading AdminHack
+echo Reloading TechieWebHack
 sleep 1
 cd
-cd AdminHack
+cd TechieWebHack
 rm -rf README.md
 rm -rf LICENSE
 sleep 1
